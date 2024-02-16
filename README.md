@@ -8,18 +8,18 @@
 
 ## Developer Guide
 
-**1.Tools Install**
+## 1.Tools Install
 
     * Virtual code.
     * Jupyter notebook.
     * Python 3.11.0 or higher.
     * MySQL.
 
-**2.Requirement Libraries to Install**
+## 2.Requirement Libraries to Install
 
     pip install pandas easyocr numpy Pillow opencv-python-headless os re sqlalchemy mysql-connector-python streamlit
 
-**3.Import Libraries**
+## 3.Import Libraries
 
     Scanning library
     import easyocr # (Optical Character Recognition)
@@ -38,36 +38,36 @@
     Dashboard library
     import streamlit as st
 
-**4.E T L Process**
+## 4.E T L Process
 
-    **a) Extract data**
+**a) Extract data**
 
         Extract relevant information from business cards by using the easyOCR library
 
-    **b) Process and Transform the data**
+**b) Process and Transform the data**
 
         After the extraction process, process the extracted data based on Company name, Card Holder, Designation, Mobile Number, Email, Website, Area, City, State, and Pincode is converted into a data frame.
 
-    **c) Load data**
+**c) Load data**
 
         After the transformation process, the data is stored in the MySQL database.
 
 ## User Guide
 
-   ** Step 1. Data collection zone  **
+   **Step 1. Data collection zone**
 
         Click the 'Browse Files' button and select an image
 
-    **Step 2. Data upload**
+   **Step 2. Data upload**
 
         Click the 'Upload to MySQL DB' button to upload the data to the Mysql database
 
-   ** Step 3. Modification zone**
+   **Step 3. Modification zone**
 
         In this 'Modification zone' you can able to modify the information also you can delete the previous data
         
 ## Links
-    * **YouTube Link  :** https://youtu.be/uezR20S4qb0
-    * **LinkedIn Link :** https://www.linkedin.com/in/ms-mgr-agri/
+* **YouTube Link  :** https://youtu.be/uezR20S4qb0
+* **LinkedIn Link :** https://www.linkedin.com/in/ms-mgr-agri/
         
 
